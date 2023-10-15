@@ -1,0 +1,323 @@
+/* ESG - SEMINÁRIO ESG DAY */
+/* CSS ZIMBA DESIGN zimbacom.com @zimbacomunica */
+/* THIAGO GREGÓRIO @thiagofcgregorio */
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* LANDING *//* LANDING *//**//* LANDING *//* LANDING *//* LANDING *//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+/**//* TOPO *//* TOPO *//**//* TOPO *//* TOPO *//* TOPO *//**///* TOPO *//* TOPO */
+
+
+header{
+  background-color: #232323;
+}
+
+
+.topo{
+  padding: 7px 0 7px 0;
+  background-color: #232323;
+}
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  font-size: 0.85rem;
+  margin: 0 0 3px 0;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #8fa01c;
+}
+
+
+
+/* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */
+
+.banner-principal{
+    background-image: url(../imgs/banner-esg-slider.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+}
+
+.banner-principal h4{
+    font-size: 2.2rem;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.banner-principal h3{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.banner-principal h1{
+    font-weight: bold;
+    font-size: 5rem;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-principal a{
+  text-decoration: none;
+}
+
+.banner-principal h5{
+  text-align: center;
+  background-color: #8fa01c;
+  padding: 20px 0 23px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 55px;
+  margin: 27px 0 0 0;
+}
+
+.banner-principal h5:hover{
+  background-color: #a2ad15;
+}
+
+
+
+/* LOCAL E HORA */ /* LOCAL E HORA */ /* LOCAL E HORA */ /* LOCAL E HORA */ /* LOCAL E HORA */
+
+.local-hora{
+  background-color: #8fa01c;
+  color: #fff;
+  padding: 55px 0 44px 0;
+}
+
+.local-hora h2{
+  font-weight: bold;
+}
+
+.local-hora .celula-1{
+  text-align: right;
+}
+
+.local-hora .celula-2{
+  text-align: left;
+}
+
+
+
+/* CONTEÚDO */ /* CONTEÚDO */ /* CONTEÚDO */ /* CONTEÚDO */ /* CONTEÚDO */ /* CONTEÚDO */
+
+.conteudo{
+  background-color: #45632a;
+  color: #fff;
+  padding: 65px 0 65px 0;
+}
+
+.conteudo .comeco h1{
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0 0 55px 0;
+}
+
+.conteudo .comeco h1 span{
+  color: #92b46e;
+}
+
+.conteudo .card-takes{
+  background-color: #668442;
+  padding: 44px 0;
+  border-radius: 23px;
+}
+
+.conteudo .card-takes h2{
+  font-weight: bold;
+}
+
+.conteudo .card-takes img{
+  margin: 0 0 13px 0;
+}
+
+.conteudo .botao a{
+  text-decoration: none;
+}
+
+.conteudo .botao h1{
+  text-align: center;
+  background-color: #8fa01c;
+  padding: 20px 0 23px 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 55px;
+  margin: 65px 0 0 0;
+}
+
+.conteudo .botao h1:hover{
+  background-color: #a2ad15;
+}
+
+
+
+/* PROGRAMAÇÃO */ /* PROGRAMAÇÃO */ /* PROGRAMAÇÃO */ /* PROGRAMAÇÃO */ /* PROGRAMAÇÃO */ 
+
+.programacao{
+  background-color: #60803c;
+  padding: 120px 0 100px 0;
+}
+
+.programacao .linha{
+  border: 3px solid #fff;
+  padding: 44px 0;
+  border-radius: 33px;
+}
+
+.programacao h1{
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+/* PATROCINADORES */ /* PATROCINADORES */ /* PATROCINADORES */ /* PATROCINADORES */ /* PATROCINADORES */ 
+
+.patrocinadores{
+  background-color: #4d4f4d;
+  padding: 100px 0;
+}
+
+
+
+/* FOOOTER */ /* FOOOTER */ /* FOOOTER */ /* FOOOTER */ /* FOOOTER */  /* FOOOTER */ /* FOOOTER */ /* FOOOTER */ 
+
+.footer{
+  background-color: #232323;
+  padding: 88px 0;
+  color: #fff;
+}
+
+.footer h3{
+  font-weight: bold;
+}
+
+.footer h5{
+  font-weight: bold;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer h4{
+  text-align: center;
+  background-color: #8fa01c;
+  padding: 20px 0 23px 0;
+  font-weight: bold;
+  color: #232323;
+  border-radius: 55px;
+}
+
+.footer h4:hover{
+  background-color: #a2ad15;
+}
+
+
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* MIDIA QUERIES *//* MIDIA QUERIES *//**//* MIDIA QUERIES *//* MIDIA QUERIES *//* MIDIA QUERIES */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+@media(max-width: 992px){
+
+  .banner-principal{
+    background-image: url(../imgs/banner-esg-slider-2.jpg);
+    text-align: center;
+    padding: 120px 0;
+  }
+
+  .local-hora .celula-1{
+    text-align: center;
+  }
+
+  .local-hora .celula-2{
+    text-align: center;
+  }
+
+  .conteudo .card-takes{
+    margin: 10px 0;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .footer img{
+    margin: 0 0 55px 0;
+  }
+
+  .footer h5{
+    margin: 0 0 77px 0;
+  }
+
+}
+
+
+
+@media(max-width: 451px){
+
+  .banner-principal h1{
+    font-size: 4rem;
+  }
+
+  .local-hora h2{
+    font-size: 1.8rem;
+  }
+
+  .conteudo .comeco h1 {
+    font-size: 1.8rem;
+  }
+
+  .programacao h1{
+    font-size: 1.8rem;
+  }
+
+}
+
